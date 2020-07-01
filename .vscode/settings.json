@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true
+}
