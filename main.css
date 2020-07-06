@@ -48,6 +48,14 @@ body {
     color: #0e4f1f;
 }
 
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a:active {
+    color: white;
+}
+
 #product-overview {
     background: #ff1b68;
     width: 100%;
