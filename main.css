@@ -153,3 +153,7 @@ body {
     background-color: white;
     color: #0e4f1f;
 }
+
+.button:focus {
+    outline: none;
+}
