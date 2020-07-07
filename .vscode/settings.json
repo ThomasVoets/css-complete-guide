@@ -3,6 +3,7 @@
     "[html]": {
         "editor.formatOnSave": false
     },
+    "editor.renameOnType": true,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true
 }
