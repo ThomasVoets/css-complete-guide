@@ -2,18 +2,6 @@ main {
     padding-top: 32px;
 }
 
-#plus {
-    background-color: rgba(213, 255, 220, 0.95);
-}
-
-#free {
-    background-color: rgba(234, 252, 237, 0.95);
-}
-
-#premium {
-    background-color: rgba(14, 79, 31, 0.95);
-}
-
 .package {
     width: 80%;
     margin: 16px 0;
@@ -44,6 +32,25 @@ main {
     font-size: 20px;
     color: #0d4f1f;
     background-color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#plus {
+    background-color: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background-color: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0d4f1f;
+}
+
+#premium {
+    background-color: rgba(14, 79, 31, 0.95);
 }
 
 #premium .package__title {
