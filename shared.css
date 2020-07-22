@@ -71,19 +71,15 @@ body::-webkit-scrollbar {
     font-weight: bold;
     font-size: 1.4rem;
     display: inline-block;
-    height: 1.4rem;
     vertical-align: middle;
 }
 
 .main-header__brand img {
-    height: 100%;
+    height: 2.5rem;
 }
 
 .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 128px);
-    vertical-align: middle;
+    display: none;
 }
 
 .main-nav__items {
@@ -119,6 +115,31 @@ body::-webkit-scrollbar {
     border-radius: 0.5rem;
 }
 
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: black;
+    display: block;
+    margin: 0.6rem 0;
+}
+
+@media (min-width: 40rem) {
+    .main-nav {
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 44px);
+        vertical-align: middle;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+}
+
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
@@ -142,8 +163,8 @@ body::-webkit-scrollbar {
 }
 
 .main-footer__link {
-    display: inline-block;
-    margin: 0 1rem;
+    display: block;
+    margin: 1rem 0;
 }
 
 .main-footer__link a {
@@ -154,6 +175,13 @@ body::-webkit-scrollbar {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+@media (min-width: 40rem) {
+    .main-footer__link {
+        display: inline-block;
+        margin: 0 1rem;
+    }
 }
 
 .button {
@@ -185,18 +213,6 @@ body::-webkit-scrollbar {
     padding-top: 0;
     padding-bottom: 0;
     vertical-align: middle;
-}
-
-.toggle-button:focus {
-    outline: none;
-}
-
-.toggle-button__bar {
-    width: 100%;
-    height: 0.2rem;
-    background: black;
-    display: block;
-    margin: 0.6rem 0;
 }
 
 .open {
