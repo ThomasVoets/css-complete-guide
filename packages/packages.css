@@ -68,6 +68,7 @@ main {
     background-color: white;
     font-family: 'AnonymousPro', sans-serif;
     font-weight: normal;
+    line-height: 1.2;
 }
 
 .clearfix {
