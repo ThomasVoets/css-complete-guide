@@ -55,12 +55,6 @@ body {
   margin: 2rem 0;
 }
 
-@media (min-width: 40rem) {
-  .sass-details {
-    width: 30rem;
-  }
-}
-
 .section-header {
   border-bottom: 0.05rem solid #521751;
 }
